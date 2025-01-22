@@ -5,10 +5,6 @@ Trackr is a budget tracking web application that helps users keep their spending
 ## Table of Contents
 
 - [Features](#features)
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
-  - [Configuration](#configuration)
-  - [Running the Application](#running-the-application)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
