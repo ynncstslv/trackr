@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Trackr
 
-## Getting Started
+Trackr is a budget tracking web application that helps users keep their spending under control. This project is built with [Next.js](https://nextjs.org/) and [React](https://reactjs.org/), and leverages a variety of modern tools like [shadcn/ui](https://ui.shadcn.com/), [Prisma](https://www.prisma.io/), [Arcjet](https://arcjet.io/), [Clerk](https://clerk.com/), and [Inngest](https://www.inngest.com/). It also includes AI-powered features such as receipt scanning and personalized monthly insights.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+  - [Running the Application](#running-the-application)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Multiple Account Support**  
+  Track and manage income and expenses across multiple accounts.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Smart Categorization**  
+  Automatically categorize transactions using AI-powered suggestions to keep your finances organized.
 
-## Learn More
+- **Receipt Scanning**  
+  Upload or scan receipts; the AI component extracts transaction details and populates relevant fields.
 
-To learn more about Next.js, take a look at the following resources:
+- **Recurring Transactions**  
+  Schedule regular income or expenses that repeat daily, weekly, monthly, or yearly.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Spending Alerts**  
+  Receive email notifications when you approach your predefined spending limits.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Interactive Charts & Visualizations**  
+  Analyze your spending patterns through intuitive graphs and dashboards.
 
-## Deploy on Vercel
+- **Monthly AI-Powered Reports**  
+  Get a detailed summary of your financial activity and personalized insights in a monthly email.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributions are always welcome! Please follow these steps to contribute:
+
+1. **Fork the project**.
+2. Create a new branch for your feature or bugfix: `git checkout -b feature/your-feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/your-feature-name`.
+5. Create a new Pull Request.
+
+Please ensure that your pull request adheres to the [Code of Conduct](https://opensource.guide/code-of-conduct/) and that all tests pass before submitting.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). You are free to modify and use the code as you see fit, but please provide attribution back to this repository.
+
+## Contact
+
+For questions, feedback, or support, please open an [issue](https://github.com/ynncstslv/trackr/issues) or contact the project maintainers:
+
+- **Yann Costa e Silva** – [@yourusername](https://github.com/ynncstslv)
