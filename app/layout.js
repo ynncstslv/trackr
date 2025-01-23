@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer';
 import './globals.css';
 import { Inter } from 'next/font/google';
+import Header from '@/components/Header';
 
 export const metadata = {
 	title: 'Trackr | Budget Tracking Made Easy',
@@ -14,7 +15,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<body className={`${inter.className} text-white antialiased bg-gray-950`}>
-				{/* header */}
+				<Header />
 				<main className="min-h-screen">{children}</main>
 				<Footer />
 			</body>
